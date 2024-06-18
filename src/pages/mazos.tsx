@@ -1,3 +1,6 @@
 export const Mazos = () => {
-    return <div>Mazos</div>;
+    return( <>
+    <div>Mazos</div>
+</>
+);
 };

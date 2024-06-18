@@ -1,3 +1,6 @@
 export const Quiz = () => {
-    return <div>Quiz</div>;
+    return( <>
+    <div>Quiz</div>
+</>
+    );
 };

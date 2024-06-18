@@ -1,3 +1,6 @@
 export const Cartas = () => {
-    return <div>Cartas</div>;
+    return (<>
+    <div>Cartas</div>
+</>
+);
 };

@@ -1,3 +1,10 @@
 export const HomePage = () => {
-    return <div>Hola</div>;
+    return (<>
+        <link>cartas</link>
+        <link>mapas</link>
+        <link>mazos</link>
+        <link>quiz</link>
+        
+        </>
+    );
 };

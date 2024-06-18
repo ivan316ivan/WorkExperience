@@ -1,3 +1,6 @@
 export const Mapa = () => {
-    return <div>Mapa</div>;
+    return(<>
+    <div>Mapa</div>
+</>
+);
 };
