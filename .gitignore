@@ -434,3 +434,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 .idea
+node_modules
