@@ -1,3 +1,19 @@
 .card {
     background-color: violet;
 }
+
+.mapas {
+    background-color: chartreuse;
+}
+
+.mazos {
+    background-color: aqua;
+}
+
+.quiz {
+    background-color: cadetblue;
+}
+
+.header {
+    background-color: red;
+}

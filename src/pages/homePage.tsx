@@ -6,7 +6,7 @@ export const HomePage = () => {
 
     return (<>
 
-        <header>
+        <header className={styles.header}>
             CLASH ROYALE
         </header>
 
@@ -16,15 +16,15 @@ export const HomePage = () => {
 
         <div onClick={() => {
             navigate("/mapa")
-        }}>mapas</div>
+        }} className={styles.mapas}>mapas</div>
 
         <div onClick={() => {
             navigate("/mazos")
-        }}>mazos</div>
+        }} className={styles.mazos}>mazos</div>
 
         <div onClick={() => {
             navigate("/quiz")
-        }}>quiz</div>
+        }} className={styles.quiz}>quiz</div>
         
         </>
     );
