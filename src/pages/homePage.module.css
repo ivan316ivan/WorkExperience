@@ -1,14 +1,14 @@
-.card {
+.cards {
     background-color: violet;
     color: rgb(38, 38, 38);
 }
 
-.mapas {
+.maps {
     background-color: chartreuse;
     color: rgb(38, 38, 38);
 }
 
-.mazos {
+.decks {
     background-color: aqua;
     color: rgb(38, 38, 38);
 }

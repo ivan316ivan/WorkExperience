@@ -1,6 +1,6 @@
-export const Mazos = () => {
+export const Decks = () => {
     return( <>
-    <div>Mazos</div>
+    <div>Decks</div>
 </>
 );
 };

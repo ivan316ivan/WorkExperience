@@ -12,15 +12,15 @@ export const HomePage = () => {
 
         <div onClick={() => {
             navigate("/cartas")
-        }} className={styles.card}>cartas</div>
+        }} className={styles.card}>cards</div>
 
         <div onClick={() => {
             navigate("/mapa")
-        }} className={styles.mapas}>mapas</div>
+        }} className={styles.mapas}>maps</div>
 
         <div onClick={() => {
             navigate("/mazos")
-        }} className={styles.mazos}>mazos</div>
+        }} className={styles.mazos}>decks</div>
 
         <div onClick={() => {
             navigate("/quiz")
