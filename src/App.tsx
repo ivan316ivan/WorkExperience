@@ -1,14 +1,15 @@
 import "./App.css";
 import { BrowserRouter } from "react-router-dom";
 import { AppRoutes } from "./appRoutes";
+import { AppLayout } from "./components/appLayout/appLayout";
 
 const App = () => {
     return (
-        <>
-            <BrowserRouter basename="/">
+        <BrowserRouter basename="/">
+            <AppLayout>
                 <AppRoutes />
-            </BrowserRouter>
-        </>
+            </AppLayout>
+        </BrowserRouter>
     );
 };
 
