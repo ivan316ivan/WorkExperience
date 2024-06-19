@@ -20,16 +20,16 @@ export const AppLayout = ({ children }: IProps) => {
                         items={[
                             {
                                 key: "1",
-                                label: "Cartas",
+                                label: "Cards",
                                 onClick: () => {
-                                    navigate("/cartas");
+                                    navigate("/cards");
                                 },
                             },
                             {
                                 key: "2",
-                                label: "Mapas",
+                                label: "Maps",
                                 onClick: () => {
-                                    navigate("/mapas");
+                                    navigate("/maps");
                                 },
                             },
                             {
