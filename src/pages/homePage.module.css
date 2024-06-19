@@ -1,19 +1,25 @@
 .card {
     background-color: violet;
+    color: rgb(38, 38, 38);
 }
 
 .mapas {
     background-color: chartreuse;
+    color: rgb(38, 38, 38);
 }
 
 .mazos {
     background-color: aqua;
+    color: rgb(38, 38, 38);
 }
 
 .quiz {
     background-color: cadetblue;
+    color: rgb(38, 38, 38);
 }
 
 .header {
     background-color: red;
+    color: rgb(38, 38, 38);
 }
+
