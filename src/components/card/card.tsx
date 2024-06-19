@@ -1,11 +1,11 @@
-import styles from "./carta.module.css";
+import styles from "./card.module.css";
 
 interface IProps {
     title: string;
     imgLink: string;
 }
 
-export const Carta = ({ title, imgLink }: IProps) => {
+export const Card = ({ title, imgLink }: IProps) => {
     return (
         <>
             <div className={styles.carta}>
