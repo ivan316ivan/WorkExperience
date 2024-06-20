@@ -1,6 +1,6 @@
 import axios from "axios";
 import cards from "../assets/response_1718700344564.json";
-import { IItemsResponse } from "../models/items";
+import { IItem, IItemsResponse } from "../models/items";
 
 const API_URL = "https://api.clashroyale.com/v1/";
 
@@ -15,5 +15,11 @@ export const clashOfClansDataSource = () => {
         });
     };
 
-    return { getCards };
+    const getCardByName = (name: string) =>
+        cards.items.find((card) => card.name === name);
+
+    const getCardById = (id: number) =>
+        cards.items.find((card) => card.id === id) as IItem | undefined;
+
+    return { getCards, getCardByName, getCardById };
 };

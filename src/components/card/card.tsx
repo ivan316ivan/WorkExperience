@@ -3,10 +3,12 @@ import styles from "./card.module.css";
 import { IItem } from "../../models/items";
 
 interface IProps {
-    item: IItem;
+    item?: IItem;
 }
 
 export const Card = ({ item }: IProps) => {
+    if (!item) return <></>
+    
     return (
         <>
             <Tooltip title={"Elixir cost: " + item.elixirCost}>

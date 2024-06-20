@@ -22,7 +22,7 @@ export const AppLayout = ({ children }: IProps) => {
                                 key: "1",
                                 label: "Cards",
                                 onClick: () => {
-                                    navigate("/cards");
+                                    navigate("/");
                                 },
                             },
                             {
