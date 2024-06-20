@@ -13,7 +13,7 @@ export const AppLayout = ({ children }: IProps) => {
 
     return (
         <Layout>
-            <Header className={styles.header}>Clash Royale App</Header>
+            <Header className={styles.header}>Clash Royale Wiki</Header>
             <Layout>
                 <Sider theme="light">
                     <Menu

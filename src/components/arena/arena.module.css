@@ -1,0 +1,10 @@
+.container {
+    text-align: center;
+}
+
+.characters {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+}

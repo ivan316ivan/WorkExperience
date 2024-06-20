@@ -11,6 +11,7 @@ import arena8 from "../assets/arena8.webp";
 import arena9 from "../assets/arena9.webp";
 import styles from "./maps.module.css";
 import { Card } from "../components/card/card";
+import { Arena } from "../components/arena/arena";
 
 export const Maps = () => {
     const [cards, setCards] = useState<any[]>([]);
@@ -85,115 +86,144 @@ export const Maps = () => {
     const poison = getCardByName("Poison");
     const barbarianBarrel = getCardByName("Barbarian Barrel");
 
+    const arenas = [
+        {
+            title: "Arena 1 (0-300 copas)",
+            imgSrc: arena1,
+            cards: (
+                <>
+                    <Card item={goblins} />
+                    <Card item={spearGoblins} />
+                    <Card item={goblinHut} />
+                    <Card item={goblinCage} />
+                </>
+            ),
+        },
+        {
+            title: "Arena 2 (300-600 copas)",
+            imgSrc: arena2,
+            cards: (
+                <>
+                    <Card item={skeletons} />
+                    <Card item={valkyrie} />
+                    <Card item={bomber} />
+                    <Card item={tombstone} />
+                </>
+            ),
+        },
+        {
+            title: "Arena 3 (600-1000 copas)",
+            imgSrc: arena3,
+            cards: (
+                <>
+                    <Card item={barbarians} />
+                    <Card item={battleRam} />
+                    <Card item={megaMinion} />
+                    <Card item={cannon} />
+                </>
+            ),
+        },
+        {
+            title: "Arena 4 (1000-1300 copas)",
+            imgSrc: arena4,
+            cards: (
+                <>
+                    <Card item={wizard} />
+                    <Card item={fireSpirit} />
+                    <Card item={skeletonDragons} />
+                    <Card item={electroSpirit} />
+                    <Card item={infernoTower} />
+                    <Card item={bombTower} />
+                </>
+            ),
+        },
+        {
+            title: "Arena 5 (1300-1600 copas)",
+            imgSrc: arena5,
+            cards: (
+                <>
+                    <Card item={hogRider} />
+                    <Card item={bats} />
+                    <Card item={flyingMachine} />
+                    <Card item={mortar} />
+                    <Card item={rocket} />
+                    <Card item={zap} />
+                </>
+            ),
+        },
+        {
+            title: "Arena 6 (1600-2000 copas)",
+            imgSrc: arena6,
+            cards: (
+                <>
+                    <Card item={pekka} />
+                    <Card item={witch} />
+                    <Card item={skeletonArmy} />
+                    <Card item={babyDragon} />
+                    <Card item={guards} />
+                    <Card item={goblinBarrel} />
+                </>
+            ),
+        },
+        {
+            title: "Arena 7 (2000-2300 copas)",
+            imgSrc: arena7,
+            cards: (
+                <>
+                    <Card item={balloon} />
+                    <Card item={prince} />
+                    <Card item={royalGiant} />
+                    <Card item={darkPrince} />
+                    <Card item={threeMusketeers} />
+                    <Card item={royalRecruits} />
+                    <Card item={royalHogs} />
+                </>
+            ),
+        },
+        {
+            title: "Arena 8 (2300-2600 copas)",
+            imgSrc: arena8,
+            cards: (
+                <>
+                    <Card item={giantSkeleton} />
+                    <Card item={iceSpirit} />
+                    <Card item={iceGolem} />
+                    <Card item={battleHealer} />
+                    <Card item={freeze} />
+                    <Card item={lightning} />
+                    <Card item={giantSnowball} />
+                </>
+            ),
+        },
+        {
+            title: "Arena 9 (2600-3000 copas)",
+            imgSrc: arena9,
+            cards: (
+                <>
+                    <Card item={dartGoblin} />
+                    <Card item={goblinGang} />
+                    <Card item={skeletonBarrel} />
+                    <Card item={goblinGiant} />
+                    <Card item={barbarianHut} />
+                    <Card item={poison} />
+                    <Card item={barbarianBarrel} />
+                </>
+            ),
+        },
+    ];
+
     return (
         <>
             <div className={styles.maps}>
                 <h1>Mapas</h1>
-                <div className={arena1}>
-                    <h3>Arena 1 {"(0-300 copas)"}</h3>
-                    <img src={arena1}></img>
-                    <div className={styles.characters}>
-                        <Card item={goblins}></Card>
-                        <Card item={spearGoblins}></Card>
-                        <Card item={goblinHut}></Card>
-                        <Card item={goblinCage}></Card>
-                    </div>
-                </div>
-                <div className={arena2}>
-                    <h3>Arena 2 {"(300-600 copas)"}</h3>
-                    <img src={arena2}></img>
-                    <div className={styles.characters}>
-                        <Card item={skeletons}></Card>
-                        <Card item={valkyrie}></Card>
-                        <Card item={bomber}></Card>
-                        <Card item={tombstone}></Card>
-                    </div>
-                </div>
-                <div className={arena3}>
-                    <h3>Arena 3 {"(600-1000 copas)"}</h3>
-                    <img src={arena3}></img>
-                    <div className={styles.characters}>
-                        <Card item={barbarians}></Card>
-                        <Card item={battleRam}></Card>
-                        <Card item={megaMinion}></Card>
-                        <Card item={cannon}></Card>
-                    </div>
-                </div>
-                <div className={arena4}>
-                    <h3>Arena 4 {"(1000-1300 copas)"}</h3>
-                    <img src={arena4}></img>
-                    <div className={styles.characters}>
-                        <Card item={wizard}></Card>
-                        <Card item={fireSpirit}></Card>
-                        <Card item={skeletonDragons}></Card>
-                        <Card item={electroSpirit}></Card>
-                        <Card item={infernoTower}></Card>
-                        <Card item={bombTower}></Card>
-                    </div>
-                </div>
-                <div className={arena5}>
-                    <h3>Arena 5 {"(1300-1600 copas)"}</h3>
-                    <img src={arena5}></img>
-                    <div className={styles.characters}>
-                        <Card item={hogRider}></Card>
-                        <Card item={bats}></Card>
-                        <Card item={flyingMachine}></Card>
-                        <Card item={mortar}></Card>
-                        <Card item={rocket}></Card>
-                        <Card item={zap}></Card>
-                    </div>
-                </div>
-                <div className={arena6}>
-                    <h3>Arena 6 {"(1600-2000 copas)"}</h3>
-                    <img src={arena6}></img>
-                    <div className={styles.characters}>
-                        <Card item={pekka}></Card>
-                        <Card item={witch}></Card>
-                        <Card item={skeletonArmy}></Card>
-                        <Card item={babyDragon}></Card>
-                        <Card item={guards}></Card>
-                        <Card item={goblinBarrel}></Card>
-                    </div>
-                </div>
-                <div className={arena7}>
-                    <h3>Arena 7 {"(1600-2000 copas)"}</h3>
-                    <img src={arena7}></img>
-                    <div className={styles.characters}>
-                        <Card item={balloon}></Card>
-                        <Card item={prince}></Card>
-                        <Card item={royalGiant}></Card>
-                        <Card item={darkPrince}></Card>
-                        <Card item={threeMusketeers}></Card>
-                        <Card item={royalRecruits}></Card>
-                        <Card item={royalHogs}></Card>
-                    </div>
-                </div>
-                <div className={arena8}>
-                    <h3>Arena 8 {"(1600-2000 copas)"}</h3>
-                    <img src={arena8}></img>
-                    <div className={styles.characters}>
-                        <Card item={giantSkeleton}></Card>
-                        <Card item={iceSpirit}></Card>
-                        <Card item={iceGolem}></Card>
-                        <Card item={battleHealer}></Card>
-                        <Card item={freeze}></Card>
-                        <Card item={lightning}></Card>
-                        <Card item={giantSnowball}></Card>
-                    </div>
-                </div>
-                <div className={arena9}>
-                    <h3>Arena 9 {"(2000-2300 copas)"}</h3>
-                    <img src={arena9}></img>
-                    <div className={styles.characters}>
-                        <Card item={dartGoblin}></Card>
-                        <Card item={goblinGang}></Card>
-                        <Card item={skeletonBarrel}></Card>
-                        <Card item={goblinGiant}></Card>
-                        <Card item={barbarianHut}></Card>
-                        <Card item={poison}></Card>
-                        <Card item={barbarianBarrel}></Card>
-                    </div>
-                </div>
+                {arenas.map((arena, index) => (
+                    <Arena
+                        key={index}
+                        title={arena.title}
+                        imgSrc={arena.imgSrc}
+                        cards={arena.cards}
+                    />
+                ))}
             </div>
         </>
     );
