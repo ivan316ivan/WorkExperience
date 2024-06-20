@@ -3,6 +3,8 @@
     {
       "name": "Knight",
       "id": 26000000,
+      "health":1766,
+      "damage":202,
       "maxLevel": 14,
       "maxEvolutionLevel": 1,
       "elixirCost": 3,
@@ -15,6 +17,8 @@
     {
       "name": "Archers",
       "id": 26000001,
+      "health":304,
+      "damage":107,
       "maxLevel": 14,
       "maxEvolutionLevel": 1,
       "elixirCost": 3,
@@ -27,6 +31,8 @@
     {
       "name": "Goblins",
       "id": 26000002,
+      "health":202,
+      "damage":120,
       "maxLevel": 14,
       "elixirCost": 2,
       "iconUrls": {
@@ -37,6 +43,8 @@
     {
       "name": "Giant",
       "id": 26000003,
+      "health":4091,
+      "damage":254,
       "maxLevel": 12,
       "elixirCost": 5,
       "iconUrls": {
@@ -47,6 +55,8 @@
     {
       "name": "P.E.K.K.A",
       "id": 26000004,
+      "health":3760,
+      "damage":816,
       "maxLevel": 9,
       "elixirCost": 7,
       "iconUrls": {
@@ -57,6 +67,8 @@
     {
       "name": "Minions",
       "id": 26000005,
+      "health":230,
+      "damage":117,
       "maxLevel": 14,
       "elixirCost": 3,
       "iconUrls": {
@@ -67,6 +79,8 @@
     {
       "name": "Balloon",
       "id": 26000006,
+      "health":1680,
+      "damage":640,
       "maxLevel": 9,
       "elixirCost": 5,
       "iconUrls": {
@@ -77,6 +91,8 @@
     {
       "name": "Witch",
       "id": 26000007,
+      "health":838,
+      "damage":134,
       "maxLevel": 9,
       "elixirCost": 5,
       "iconUrls": {
@@ -87,6 +103,8 @@
     {
       "name": "Barbarians",
       "id": 26000008,
+      "health":670,
+      "damage":192,
       "maxLevel": 14,
       "maxEvolutionLevel": 1,
       "elixirCost": 5,
@@ -99,6 +117,8 @@
     {
       "name": "Golem",
       "id": 26000009,
+      "health":5120,
+      "damage":312,
       "maxLevel": 9,
       "elixirCost": 8,
       "iconUrls": {
@@ -109,6 +129,8 @@
     {
       "name": "Skeletons",
       "id": 26000010,
+      "health":81,
+      "damage":81,
       "maxLevel": 14,
       "maxEvolutionLevel": 1,
       "elixirCost": 1,
@@ -121,6 +143,8 @@
     {
       "name": "Valkyrie",
       "id": 26000011,
+      "health":1908,
+      "damage":267,
       "maxLevel": 12,
       "maxEvolutionLevel": 1,
       "elixirCost": 4,
@@ -133,6 +157,8 @@
     {
       "name": "Skeleton Army",
       "id": 26000012,
+      "health":81,
+      "damage":81,
       "maxLevel": 9,
       "elixirCost": 3,
       "iconUrls": {
@@ -143,6 +169,8 @@
     {
       "name": "Bomber",
       "id": 26000013,
+      "health":332,
+      "damage":230,
       "maxLevel": 14,
       "maxEvolutionLevel": 1,
       "elixirCost": 2,
@@ -155,6 +183,8 @@
     {
       "name": "Musketeer",
       "id": 26000014,
+      "health":720,
+      "damage":218,
       "maxLevel": 12,
       "elixirCost": 4,
       "iconUrls": {
@@ -165,6 +195,8 @@
     {
       "name": "Baby Dragon",
       "id": 26000015,
+      "health":1152,
+      "damage":160,
       "maxLevel": 9,
       "elixirCost": 4,
       "iconUrls": {
@@ -175,6 +207,8 @@
     {
       "name": "Prince",
       "id": 26000016,
+      "health":1920,
+      "damage":392,
       "maxLevel": 9,
       "elixirCost": 5,
       "iconUrls": {
@@ -185,6 +219,8 @@
     {
       "name": "Wizard",
       "id": 26000017,
+      "health":720,
+      "damage":281,
       "maxLevel": 12,
       "maxEvolutionLevel": 1,
       "elixirCost": 5,
@@ -197,6 +233,8 @@
     {
       "name": "Mini P.E.K.K.A",
       "id": 26000018,
+      "health":1361,
+      "damage":720,
       "maxLevel": 12,
       "elixirCost": 4,
       "iconUrls": {
@@ -207,6 +245,8 @@
     {
       "name": "Spear Goblins",
       "id": 26000019,
+      "health":133,
+      "damage":81,
       "maxLevel": 14,
       "elixirCost": 2,
       "iconUrls": {
@@ -217,6 +257,8 @@
     {
       "name": "Giant Skeleton",
       "id": 26000020,
+      "health":3616,
+      "damage":267,
       "maxLevel": 9,
       "elixirCost": 6,
       "iconUrls": {
@@ -269,6 +311,8 @@
     {
       "name": "Guards",
       "id": 26000025,
+      "health":81,
+      "damage":121,
       "maxLevel": 9,
       "elixirCost": 3,
       "iconUrls": {
