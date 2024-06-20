@@ -8,7 +8,11 @@ export const Cards = () => {
     const [rarities, setRarities] = useState<string[]>([]);
 
     useEffect(() => {
-        setCards(clashOfClansDataSource().getCards().items);
+        clashOfClansDataSource()
+            .getCards()
+            .then((res) => {
+                setCards(res.items);
+            });
     }, []);
 
     const capitalizeFirstLetter = (text: string) => {
@@ -42,8 +46,7 @@ export const Cards = () => {
                             .map((data) => (
                                 <Card
                                     key={data.id}
-                                    title={data.name}
-                                    imgLink={data.iconUrls.medium}
+                                    item={data}
                                 />
                             ))}
                     </div>

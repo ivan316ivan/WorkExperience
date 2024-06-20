@@ -1,17 +1,20 @@
+import { Tooltip } from "antd";
 import styles from "./card.module.css";
+import { IItem } from "../../models/items";
 
 interface IProps {
-    title: string;
-    imgLink: string;
+    item: IItem;
 }
 
-export const Card = ({ title, imgLink }: IProps) => {
+export const Card = ({ item }: IProps) => {
     return (
         <>
-            <div className={styles.carta}>
-                <h4>{title}</h4>
-                <img src={imgLink} alt="caballero"></img>
-            </div>
+            <Tooltip title={"Elixir cost: " + item.elixirCost}>
+                <div className={styles.carta}>
+                    <h4>{item.name}</h4>
+                    <img src={item.iconUrls.medium} alt="cardImg"></img>
+                </div>
+            </Tooltip>
         </>
     );
 };
