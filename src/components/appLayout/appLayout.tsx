@@ -52,20 +52,6 @@ export const AppLayout = ({ children }: IProps) => {
                                     navigate("/maps");
                                 },
                             },
-                            {
-                                key: "3",
-                                label: "Mazos",
-                                onClick: () => {
-                                    navigate("/mazos");
-                                },
-                            },
-                            {
-                                key: "4",
-                                label: "Quiz",
-                                onClick: () => {
-                                    navigate("/quiz");
-                                },
-                            },
                         ]}
                     />
                 </Sider>

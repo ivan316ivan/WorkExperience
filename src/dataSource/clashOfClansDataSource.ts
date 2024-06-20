@@ -8,11 +8,11 @@ export const clashOfClansDataSource = () => {
     const getCards = async (): Promise<IItemsResponse> => {
         return cards as IItemsResponse;
 
-        return await axios.get(`/api/v1/cards`, {
+        /*return await axios.get(`/api/v1/cards`, {
             headers: {
                 Authorization: "Bearer " + import.meta.env.VITE_API_KEY,
             },
-        });
+        });*/
     };
 
     const getCardByName = (name: string) =>
