@@ -2,6 +2,10 @@ h1 {
     color: rgb(64, 145, 247);
 }
 
+.maps {
+    text-align: center;
+}
+
 .characters {
     display: flex;
     text-align: center;

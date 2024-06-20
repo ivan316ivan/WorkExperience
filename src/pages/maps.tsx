@@ -7,6 +7,7 @@ import arena4 from "../assets/arena4.webp";
 import arena5 from "../assets/arena5.webp";
 import arena6 from "../assets/arena6.webp";
 import arena7 from "../assets/arena7.webp";
+import arena8 from "../assets/arena8.webp";
 import styles from "./maps.module.css";
 import { Card } from "../components/card/card";
 
@@ -66,6 +67,14 @@ export const Maps = () => {
     const threeMusketeers = getCardByName("Three Musketeers");
     const royalRecruits = getCardByName("Royal Recruits");
     const royalHogs = getCardByName("Royal Hogs");
+
+    const giantSkeleton = getCardByName("Giant Skeleton");
+    const iceSpirit = getCardByName("Ice Spirit");
+    const iceGolem = getCardByName("Ice Golem");
+    const battleHealer = getCardByName("Battle Healer");
+    const freeze = getCardByName("Freeze");
+    const lightning = getCardByName("Lightning");
+    const giantSnowball = getCardByName("Giant Snowball");
 
     return (
         <>
@@ -148,6 +157,19 @@ export const Maps = () => {
                         <Card item={threeMusketeers}></Card>
                         <Card item={royalRecruits}></Card>
                         <Card item={royalHogs}></Card>
+                    </div>
+                </div>
+                <div className={arena8}>
+                    <h3>Arena 8 {"(1600-2000 copas)"}</h3>
+                    <img src={arena8}></img>
+                    <div className={styles.characters}>
+                        <Card item={giantSkeleton}></Card>
+                        <Card item={iceSpirit}></Card>
+                        <Card item={iceGolem}></Card>
+                        <Card item={battleHealer}></Card>
+                        <Card item={freeze}></Card>
+                        <Card item={lightning}></Card>
+                        <Card item={giantSnowball}></Card>
                     </div>
                 </div>
             </div>
