@@ -55,11 +55,11 @@ export const Maps = () => {
 
   const balloon = cards.find((card) => card.name === "Balloon");
   const prince = cards.find((card) => card.name === "Prince");
-  const skeletonArmy = cards.find((card) => card.name === "Skeleton Army");
-  const babyDragon = cards.find((card) => card.name === "Baby Dragon");
-  const guards = cards.find((card) => card.name === "Guards");
-  const goblinBarrel = cards.find((card) => card.name === "Goblin Barrel");
-  const goblinBarrel = cards.find((card) => card.name === "Goblin Barrel");
+  const royalGiant = cards.find((card) => card.name === "Royal Giant");
+  const darkPrince = cards.find((card) => card.name === "Dark Prince");
+  const threeMusketeers = cards.find((card) => card.name === "Three Musketeers");
+  const royalRecruits = cards.find((card) => card.name === "Royal Recruits");
+  const royalHogs = cards.find((card) => card.name === "Royal Hogs");
 
   return (
     <>
@@ -234,24 +234,24 @@ export const Maps = () => {
               imgLink={!!prince ? prince.iconUrls.medium : ""}
             ></Card>
             <Card
-              title={!!skeletonArmy ? skeletonArmy.name : ""}
-              imgLink={!!skeletonArmy ? skeletonArmy.iconUrls.medium : ""}
+              title={!!royalGiant ? royalGiant.name : ""}
+              imgLink={!!royalGiant ? royalGiant.iconUrls.medium : ""}
             ></Card>
             <Card
-              title={!!babyDragon ? babyDragon.name : ""}
-              imgLink={!!babyDragon ? babyDragon.iconUrls.medium : ""}
+              title={!!darkPrince ? darkPrince.name : ""}
+              imgLink={!!darkPrince ? darkPrince.iconUrls.medium : ""}
             ></Card>
             <Card
-              title={!!guards ? guards.name : ""}
-              imgLink={!!guards ? guards.iconUrls.medium : ""}
+              title={!!threeMusketeers ? threeMusketeers.name : ""}
+              imgLink={!!threeMusketeers ? threeMusketeers.iconUrls.medium : ""}
             ></Card>
             <Card
-              title={!!goblinBarrel ? goblinBarrel.name : ""}
-              imgLink={!!goblinBarrel ? goblinBarrel.iconUrls.medium : ""}
+              title={!!royalRecruits ? royalRecruits.name : ""}
+              imgLink={!!royalRecruits ? royalRecruits.iconUrls.medium : ""}
             ></Card>
             <Card
-              title={!!goblinBarrel ? goblinBarrel.name : ""}
-              imgLink={!!goblinBarrel ? goblinBarrel.iconUrls.medium : ""}
+              title={!!royalHogs ? royalHogs.name : ""}
+              imgLink={!!royalHogs ? royalHogs.iconUrls.medium : ""}
             ></Card>
           </div>
         </div>
