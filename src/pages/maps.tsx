@@ -9,6 +9,9 @@ import arena6 from "../assets/arena6.webp";
 import arena7 from "../assets/arena7.webp";
 import arena8 from "../assets/arena8.webp";
 import arena9 from "../assets/arena9.webp";
+import arena10 from "../assets/arena10.webp";
+import arena11 from "../assets/arena_electro.webp";
+import arena12 from "../assets/arena12.webp";
 import styles from "./maps.module.css";
 import { Card } from "../components/card/card";
 import { Arena } from "../components/arena/arena";
@@ -85,6 +88,32 @@ export const Maps = () => {
     const barbarianHut = getCardByName("Barbarian Hut");
     const poison = getCardByName("Poison");
     const barbarianBarrel = getCardByName("Barbarian Barrel");
+
+    const golem = getCardByName("Golem");
+    const minionHorde = getCardByName("Minion Horde");
+    const eliteBarbarians = getCardByName("Elite Barbarians");
+    const hunter = getCardByName("Hunter");
+    const zappies = getCardByName("Zappies");
+    const tesla = getCardByName("Tesla");
+    const xBow = getCardByName("X-Bow");
+    const furnace = getCardByName("Furnace");
+
+    const princess = getCardByName("Princess");
+    const miner = getCardByName("Miner");
+    const sparky = getCardByName("sparky");
+    const infernoDragon = getCardByName("Inferno Dragon");
+    const electroWizard = getCardByName("Electro Wizard");
+    const ramRider = getCardByName("Ram Rider");
+    const megaKnight = getCardByName("Mega Knight");
+    const theLog = getCardByName("The Log");
+
+    const iceWizard = getCardByName("Ice Wizard");
+    const royalGhost = getCardByName("Royal Ghost");
+    const wallBreakers = getCardByName("Wall Breakers");
+    const electroDragon = getCardByName("Electro Dragon");
+    const firecracker = getCardByName("Firecracker");
+    const phoenix = getCardByName("Phoenix");
+    const graveyard = getCardByName("Graveyard");
 
     const arenas = [
         {
@@ -207,6 +236,53 @@ export const Maps = () => {
                     <Card item={barbarianHut} />
                     <Card item={poison} />
                     <Card item={barbarianBarrel} />
+                </>
+            ),
+        },
+        {
+            title: "Arena 10 (3000-3300 copas)",
+            imgSrc: arena10,
+            cards: (
+                <>
+                    <Card item={golem} />
+                    <Card item={minionHorde} />
+                    <Card item={eliteBarbarians} />
+                    <Card item={hunter} />
+                    <Card item={zappies} />
+                    <Card item={tesla} />
+                    <Card item={xBow} />
+                    <Card item={furnace} />
+                </>
+            ),
+        },
+        {
+            title: "Arena 11 (3300-3600 copas)",
+            imgSrc: arena11,
+            cards: (
+                <>
+                    <Card item={princess} />
+                    <Card item={miner} />
+                    <Card item={sparky} />
+                    <Card item={infernoDragon} />
+                    <Card item={electroWizard} />
+                    <Card item={ramRider} />
+                    <Card item={megaKnight} />
+                    <Card item={theLog} />
+                </>
+            ),
+        },
+        {
+            title: "Arena 12 (3600-4000 copas)",
+            imgSrc: arena12,
+            cards: (
+                <>
+                    <Card item={iceWizard} />
+                    <Card item={royalGhost} />
+                    <Card item={wallBreakers} />
+                    <Card item={electroDragon} />
+                    <Card item={firecracker} />
+                    <Card item={phoenix} />
+                    <Card item={graveyard} />
                 </>
             ),
         },
