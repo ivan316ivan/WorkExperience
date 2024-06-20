@@ -8,6 +8,7 @@ import arena5 from "../assets/arena5.webp";
 import arena6 from "../assets/arena6.webp";
 import arena7 from "../assets/arena7.webp";
 import arena8 from "../assets/arena8.webp";
+import arena9 from "../assets/arena9.webp";
 import styles from "./maps.module.css";
 import { Card } from "../components/card/card";
 
@@ -75,6 +76,14 @@ export const Maps = () => {
     const freeze = getCardByName("Freeze");
     const lightning = getCardByName("Lightning");
     const giantSnowball = getCardByName("Giant Snowball");
+
+    const dartGoblin = getCardByName("Dart Goblin");
+    const goblinGang = getCardByName("Goblin Gang");
+    const skeletonBarrel = getCardByName("Skeleton Barrel");
+    const goblinGiant = getCardByName("Goblin Giant");
+    const barbarianHut = getCardByName("Barbarian Hut");
+    const poison = getCardByName("Poison");
+    const barbarianBarrel = getCardByName("Barbarian Barrel");
 
     return (
         <>
@@ -170,6 +179,19 @@ export const Maps = () => {
                         <Card item={freeze}></Card>
                         <Card item={lightning}></Card>
                         <Card item={giantSnowball}></Card>
+                    </div>
+                </div>
+                <div className={arena9}>
+                    <h3>Arena 9 {"(2000-2300 copas)"}</h3>
+                    <img src={arena9}></img>
+                    <div className={styles.characters}>
+                        <Card item={dartGoblin}></Card>
+                        <Card item={goblinGang}></Card>
+                        <Card item={skeletonBarrel}></Card>
+                        <Card item={goblinGiant}></Card>
+                        <Card item={barbarianHut}></Card>
+                        <Card item={poison}></Card>
+                        <Card item={barbarianBarrel}></Card>
                     </div>
                 </div>
             </div>
