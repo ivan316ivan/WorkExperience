@@ -16,7 +16,7 @@ export const clashOfClansDataSource = () => {
     };
 
     const getCardByName = (name: string) =>
-        cards.items.find((card) => card.name === name);
+        cards.items.find((card) => card.name === name) as IItem | undefined;
 
     const getCardById = (id: number) =>
         cards.items.find((card) => card.id === id) as IItem | undefined;
