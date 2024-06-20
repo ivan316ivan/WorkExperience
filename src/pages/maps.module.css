@@ -1,0 +1,10 @@
+h1 {
+    color: rgb(64, 145, 247);
+}
+
+.characters {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+}
