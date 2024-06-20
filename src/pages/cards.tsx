@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import styles from "./cards.module.css";
 import { clashOfClansDataSource } from "../dataSource/clashOfClansDataSource";
 import { Card } from "../components/card/card";
+import { capitalizeFirstLetter } from "../helpers/capitalizeFirstLetter";
 
 export const Cards = () => {
     const [cards, setCards] = useState<any[]>([]);
@@ -15,9 +16,7 @@ export const Cards = () => {
             });
     }, []);
 
-    const capitalizeFirstLetter = (text: string) => {
-        return text.charAt(0).toUpperCase() + text.slice(1);
-    };
+
 
     useEffect(() => {
         if (!cards.length) return;

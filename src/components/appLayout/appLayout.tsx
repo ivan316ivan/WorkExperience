@@ -12,10 +12,30 @@ export const AppLayout = ({ children }: IProps) => {
     const navigate = useNavigate();
 
     return (
-        <Layout>
-            <Header className={styles.header}>Clash Royale Wiki</Header>
+        <Layout className={styles.container}>
+            <Header
+                className={styles.header}
+                style={{
+                    position: "fixed",
+                    top: 0,
+                    zIndex: 1,
+                    width: "100%",
+                    display: "flex",
+                    alignItems: "center",
+                }}
+            >
+                Clash Royale Wiki
+            </Header>
             <Layout>
-                <Sider theme="light">
+                <Sider
+                    theme="light"
+                    className={styles.sider}
+                    style={{
+                        overflow: "auto",
+                        height: "100vh",
+                        position: "fixed",
+                    }}
+                >
                     <Menu
                         items={[
                             {
@@ -49,7 +69,12 @@ export const AppLayout = ({ children }: IProps) => {
                         ]}
                     />
                 </Sider>
-                <Content className={styles.content}>{children}</Content>
+                <Content
+                    className={styles.content}
+                    style={{ marginLeft: 200, marginTop: 50 }}
+                >
+                    {children}
+                </Content>
             </Layout>
         </Layout>
     );

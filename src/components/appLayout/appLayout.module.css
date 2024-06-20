@@ -1,9 +1,21 @@
+.container {
+    height: 100vh;
+}
+
 .header {
     background-color: white;
     font-size: 22px;
     font-weight: bold;
+    
 }
 
 .content {
     padding: 20px;
+}
+
+.sider {
+    left: 0;
+    top: 64px;
+    bottom: 0;
+    background-color: red;
 }
