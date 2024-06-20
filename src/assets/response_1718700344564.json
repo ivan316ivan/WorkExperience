@@ -269,6 +269,8 @@
     {
       "name": "Hog Rider",
       "id": 26000021,
+      "health":1696,
+      "damage":318,
       "maxLevel": 12,
       "elixirCost": 4,
       "iconUrls": {
@@ -279,6 +281,8 @@
     {
       "name": "Minion Horde",
       "id": 26000022,
+      "health":230,
+      "damage":117,
       "maxLevel": 14,
       "elixirCost": 5,
       "iconUrls": {
@@ -289,6 +293,8 @@
     {
       "name": "Ice Wizard",
       "id": 26000023,
+      "health":688,
+      "damage":90,
       "maxLevel": 6,
       "elixirCost": 3,
       "iconUrls": {
@@ -299,6 +305,8 @@
     {
       "name": "Royal Giant",
       "id": 26000024,
+      "health":3164,
+      "damage":307,
       "maxLevel": 14,
       "maxEvolutionLevel": 1,
       "elixirCost": 6,
@@ -323,6 +331,8 @@
     {
       "name": "Princess",
       "id": 26000026,
+      "health":261,
+      "damage":169,
       "maxLevel": 6,
       "elixirCost": 3,
       "iconUrls": {
@@ -333,6 +343,8 @@
     {
       "name": "Dark Prince",
       "id": 26000027,
+      "health":1200,
+      "damage":298,
       "maxLevel": 9,
       "elixirCost": 4,
       "iconUrls": {
@@ -343,6 +355,8 @@
     {
       "name": "Three Musketeers",
       "id": 26000028,
+      "health":720,
+      "damage":218,
       "maxLevel": 12,
       "elixirCost": 9,
       "iconUrls": {
@@ -353,6 +367,8 @@
     {
       "name": "Lava Hound",
       "id": 26000029,
+      "health":3518,
+      "damage":54,
       "maxLevel": 6,
       "elixirCost": 7,
       "iconUrls": {
@@ -363,6 +379,8 @@
     {
       "name": "Ice Spirit",
       "id": 26000030,
+      "health":230,
+      "damage":110,
       "maxLevel": 14,
       "maxEvolutionLevel": 1,
       "elixirCost": 1,
@@ -375,6 +393,8 @@
     {
       "name": "Fire Spirit",
       "id": 26000031,
+      "health":230,
+      "damage":207,
       "maxLevel": 14,
       "elixirCost": 1,
       "iconUrls": {
@@ -385,6 +405,8 @@
     {
       "name": "Miner",
       "id": 26000032,
+      "health":1210,
+      "damage":193,
       "maxLevel": 6,
       "elixirCost": 3,
       "iconUrls": {
@@ -395,6 +417,8 @@
     {
       "name": "Sparky",
       "id": 26000033,
+      "health":1452,
+      "damage":1331,
       "maxLevel": 6,
       "elixirCost": 6,
       "iconUrls": {
@@ -405,6 +429,8 @@
     {
       "name": "Bowler",
       "id": 26000034,
+      "health":2080,
+      "damage":288,
       "maxLevel": 9,
       "elixirCost": 5,
       "iconUrls": {
@@ -415,6 +441,8 @@
     {
       "name": "Lumberjack",
       "id": 26000035,
+      "health":1282,
+      "damage":242,
       "maxLevel": 6,
       "elixirCost": 4,
       "iconUrls": {
@@ -425,6 +453,8 @@
     {
       "name": "Battle Ram",
       "id": 26000036,
+      "health":966,
+      "damage":286,
       "maxLevel": 12,
       "maxEvolutionLevel": 1,
       "elixirCost": 4,
@@ -437,6 +467,8 @@
     {
       "name": "Inferno Dragon",
       "id": 26000037,
+      "health": 1294,
+      "damage": 423,
       "maxLevel": 6,
       "elixirCost": 4,
       "iconUrls": {
@@ -447,6 +479,8 @@
     {
       "name": "Ice Golem",
       "id": 26000038,
+      "health": 1197,
+      "damage": 84,
       "maxLevel": 12,
       "elixirCost": 2,
       "iconUrls": {
@@ -457,6 +491,8 @@
     {
       "name": "Mega Minion",
       "id": 26000039,
+      "health": 837,
+      "damage": 311,
       "maxLevel": 12,
       "elixirCost": 3,
       "iconUrls": {
@@ -467,6 +503,8 @@
     {
       "name": "Dart Goblin",
       "id": 26000040,
+      "health": 260,
+      "damage": 142,
       "maxLevel": 12,
       "elixirCost": 3,
       "iconUrls": {
@@ -477,6 +515,8 @@
     {
       "name": "Goblin Gang",
       "id": 26000041,
+      "health": 202,
+      "damage": 120,
       "maxLevel": 14,
       "elixirCost": 3,
       "iconUrls": {
@@ -487,6 +527,8 @@
     {
       "name": "Electro Wizard",
       "id": 26000042,
+      "health": 713,
+      "damage": 220,
       "maxLevel": 6,
       "elixirCost": 4,
       "iconUrls": {
@@ -497,6 +539,8 @@
     {
       "name": "Elite Barbarians",
       "id": 26000043,
+      "health": 1341,
+      "damage": 384,
       "maxLevel": 14,
       "elixirCost": 6,
       "iconUrls": {
@@ -507,6 +551,8 @@
     {
       "name": "Hunter",
       "id": 26000044,
+      "health": 838,
+      "damage": 380,
       "maxLevel": 9,
       "elixirCost": 4,
       "iconUrls": {
@@ -517,6 +563,8 @@
     {
       "name": "Executioner",
       "id": 26000045,
+      "health": 1280,
+      "damage": 338,
       "maxLevel": 9,
       "elixirCost": 5,
       "iconUrls": {
@@ -527,6 +575,8 @@
     {
       "name": "Bandit",
       "id": 26000046,
+      "health": 907,
+      "damage": 193,
       "maxLevel": 6,
       "elixirCost": 3,
       "iconUrls": {
@@ -537,6 +587,8 @@
     {
       "name": "Royal Recruits",
       "id": 26000047,
+      "health": 547,
+      "damage": 133,
       "maxLevel": 14,
       "maxEvolutionLevel": 1,
       "elixirCost": 7,
@@ -549,6 +601,8 @@
     {
       "name": "Night Witch",
       "id": 26000048,
+      "health": 907,
+      "damage": 304,
       "maxLevel": 6,
       "elixirCost": 4,
       "iconUrls": {
@@ -559,6 +613,8 @@
     {
       "name": "Bats",
       "id": 26000049,
+      "health": 81,
+      "damage": 81,
       "maxLevel": 14,
       "maxEvolutionLevel": 1,
       "elixirCost": 2,
@@ -571,6 +627,8 @@
     {
       "name": "Royal Ghost",
       "id": 26000050,
+      "health": 1210,
+      "damage": 261,
       "maxLevel": 6,
       "elixirCost": 3,
       "iconUrls": {
@@ -581,6 +639,8 @@
     {
       "name": "Ram Rider",
       "id": 26000051,
+      "health": 1267,
+      "damage": 261,
       "maxLevel": 6,
       "elixirCost": 5,
       "iconUrls": {
@@ -591,6 +651,8 @@
     {
       "name": "Zappies",
       "id": 26000052,
+      "health": 530,
+      "damage": 116,
       "maxLevel": 12,
       "elixirCost": 4,
       "iconUrls": {
@@ -601,6 +663,8 @@
     {
       "name": "Rascals",
       "id": 26000053,
+      "health": 1940,
+      "damage": 133,
       "maxLevel": 14,
       "elixirCost": 5,
       "iconUrls": {
@@ -611,6 +675,8 @@
     {
       "name": "Cannon Cart",
       "id": 26000054,
+      "health": 892,
+      "damage": 212,
       "maxLevel": 9,
       "elixirCost": 5,
       "iconUrls": {
@@ -621,6 +687,8 @@
     {
       "name": "Mega Knight",
       "id": 26000055,
+      "health": 3393,
+      "damage": 268,
       "maxLevel": 6,
       "elixirCost": 7,
       "iconUrls": {
@@ -631,6 +699,8 @@
     {
       "name": "Skeleton Barrel",
       "id": 26000056,
+      "health": 352,
+      "damage": 133,
       "maxLevel": 14,
       "elixirCost": 3,
       "iconUrls": {
@@ -641,6 +711,8 @@
     {
       "name": "Flying Machine",
       "id": 26000057,
+      "health": 614,
+      "damage": 171,
       "maxLevel": 12,
       "elixirCost": 4,
       "iconUrls": {
@@ -651,6 +723,8 @@
     {
       "name": "Wall Breakers",
       "id": 26000058,
+      "health": 331,
+      "damage": 362,
       "maxLevel": 9,
       "maxEvolutionLevel": 1,
       "elixirCost": 2,
@@ -663,6 +737,8 @@
     {
       "name": "Royal Hogs",
       "id": 26000059,
+      "health": 837,
+      "damage": 74,
       "maxLevel": 12,
       "elixirCost": 5,
       "iconUrls": {
@@ -673,6 +749,8 @@
     {
       "name": "Goblin Giant",
       "id": 26000060,
+      "health": 3232,
+      "damage": 176,
       "maxLevel": 9,
       "elixirCost": 6,
       "iconUrls": {
@@ -683,6 +761,8 @@
     {
       "name": "Fisherman",
       "id": 26000061,
+      "health": 871,
+      "damage": 193,
       "maxLevel": 6,
       "elixirCost": 3,
       "iconUrls": {
@@ -693,6 +773,8 @@
     {
       "name": "Magic Archer",
       "id": 26000062,
+      "health": 532,
+      "damage": 134,
       "maxLevel": 6,
       "elixirCost": 4,
       "iconUrls": {
@@ -703,6 +785,8 @@
     {
       "name": "Electro Dragon",
       "id": 26000063,
+      "health": 950,
+      "damage": 192,
       "maxLevel": 9,
       "elixirCost": 5,
       "iconUrls": {
@@ -713,6 +797,8 @@
     {
       "name": "Firecracker",
       "id": 26000064,
+      "health": 304,
+      "damage": 320,
       "maxLevel": 14,
       "maxEvolutionLevel": 1,
       "elixirCost": 3,
@@ -725,6 +811,8 @@
     {
       "name": "Mighty Miner",
       "id": 26000065,
+      "health": 2250,
+      "damage": 245,
       "maxLevel": 4,
       "elixirCost": 4,
       "iconUrls": {
@@ -735,6 +823,8 @@
     {
       "name": "Elixir Golem",
       "id": 26000067,
+      "health": 1568,
+      "damage": 254,
       "maxLevel": 12,
       "elixirCost": 3,
       "iconUrls": {
@@ -745,6 +835,8 @@
     {
       "name": "Battle Healer",
       "id": 26000068,
+      "health": 1717,
+      "damage": 148,
       "maxLevel": 12,
       "elixirCost": 4,
       "iconUrls": {
@@ -755,6 +847,8 @@
     {
       "name": "Skeleton King",
       "id": 26000069,
+      "health": 2298,
+      "damage": 204,
       "maxLevel": 4,
       "elixirCost": 4,
       "iconUrls": {
@@ -765,6 +859,8 @@
     {
       "name": "Archer Queen",
       "id": 26000072,
+      "health": 1000,
+      "damage": 225,
       "maxLevel": 4,
       "elixirCost": 5,
       "iconUrls": {
@@ -775,6 +871,8 @@
     {
       "name": "Golden Knight",
       "id": 26000074,
+      "health": 1799,
+      "damage": 161,
       "maxLevel": 4,
       "elixirCost": 4,
       "iconUrls": {
@@ -785,6 +883,8 @@
     {
       "name": "Monk",
       "id": 26000077,
+      "health": 2150,
+      "damage": 140,
       "maxLevel": 4,
       "elixirCost": 5,
       "iconUrls": {
@@ -795,6 +895,8 @@
     {
       "name": "Skeleton Dragons",
       "id": 26000080,
+      "health": 563,
+      "damage": 161,
       "maxLevel": 14,
       "elixirCost": 4,
       "iconUrls": {
@@ -805,6 +907,8 @@
     {
       "name": "Mother Witch",
       "id": 26000083,
+      "health": 532,
+      "damage": 133,
       "maxLevel": 6,
       "elixirCost": 4,
       "iconUrls": {
@@ -815,6 +919,8 @@
     {
       "name": "Electro Spirit",
       "id": 26000084,
+      "health": 230,
+      "damage": 99,
       "maxLevel": 14,
       "elixirCost": 1,
       "iconUrls": {
@@ -825,6 +931,8 @@
     {
       "name": "Electro Giant",
       "id": 26000085,
+      "health": 3856,
+      "damage": 163,
       "maxLevel": 9,
       "elixirCost": 7,
       "iconUrls": {
@@ -835,6 +943,8 @@
     {
       "name": "Phoenix",
       "id": 26000087,
+      "health": 1052,
+      "damage": 217,
       "maxLevel": 6,
       "elixirCost": 4,
       "iconUrls": {
@@ -845,6 +955,8 @@
     {
       "name": "Little Prince",
       "id": 26000093,
+      "health": 698,
+      "damage": 99,
       "maxLevel": 4,
       "elixirCost": 3,
       "iconUrls": {
@@ -855,6 +967,8 @@
     {
       "name": "Cannon",
       "id": 27000000,
+      "health": 824,
+      "damage": 212,
       "maxLevel": 14,
       "elixirCost": 3,
       "iconUrls": {
@@ -865,6 +979,8 @@
     {
       "name": "Goblin Hut",
       "id": 27000001,
+      "health": 824,
+      "damage": 212,
       "maxLevel": 12,
       "elixirCost": 5,
       "iconUrls": {
@@ -875,6 +991,8 @@
     {
       "name": "Mortar",
       "id": 27000002,
+      "health": 1369,
+      "damage": 266,
       "maxLevel": 14,
       "maxEvolutionLevel": 1,
       "elixirCost": 4,
@@ -887,6 +1005,8 @@
     {
       "name": "Inferno Tower",
       "id": 27000003,
+      "health": 1749,
+      "damage": 445,
       "maxLevel": 12,
       "elixirCost": 5,
       "iconUrls": {
@@ -897,6 +1017,8 @@
     {
       "name": "Bomb Tower",
       "id": 27000004,
+      "health": 1356,
+      "damage": 222,
       "maxLevel": 12,
       "elixirCost": 4,
       "iconUrls": {
@@ -907,6 +1029,8 @@
     {
       "name": "Barbarian Hut",
       "id": 27000005,
+      "health": 1166,
+      "damage": 192,
       "maxLevel": 12,
       "elixirCost": 6,
       "iconUrls": {
@@ -917,6 +1041,8 @@
     {
       "name": "Tesla",
       "id": 27000006,
+      "health": 1152,
+      "damage": 230,
       "maxLevel": 14,
       "maxEvolutionLevel": 1,
       "elixirCost": 4,
@@ -929,6 +1055,7 @@
     {
       "name": "Elixir Collector",
       "id": 27000007,
+      "health": 1070,
       "maxLevel": 12,
       "elixirCost": 6,
       "iconUrls": {
@@ -939,6 +1066,8 @@
     {
       "name": "X-Bow",
       "id": 27000008,
+      "health": 1600,
+      "damage": 41,
       "maxLevel": 9,
       "elixirCost": 6,
       "iconUrls": {
@@ -949,6 +1078,8 @@
     {
       "name": "Tombstone",
       "id": 27000009,
+      "health": 530,
+      "damage": 81,
       "maxLevel": 12,
       "elixirCost": 3,
       "iconUrls": {
@@ -959,6 +1090,8 @@
     {
       "name": "Furnace",
       "id": 27000010,
+      "health": 848,
+      "damage": 207,
       "maxLevel": 12,
       "elixirCost": 4,
       "iconUrls": {
@@ -969,6 +1102,8 @@
     {
       "name": "Goblin Cage",
       "id": 27000012,
+      "health": 1081,
+      "damage": 337,
       "maxLevel": 12,
       "elixirCost": 4,
       "iconUrls": {
@@ -979,6 +1114,8 @@
     {
       "name": "Goblin Drill",
       "id": 27000013,
+      "health": 1212,
+      "damage": 83,
       "maxLevel": 9,
       "elixirCost": 4,
       "iconUrls": {
@@ -989,6 +1126,7 @@
     {
       "name": "Fireball",
       "id": 28000000,
+      "damage": 689,
       "maxLevel": 12,
       "elixirCost": 4,
       "iconUrls": {
@@ -999,6 +1137,7 @@
     {
       "name": "Arrows",
       "id": 28000001,
+      "damage": 366,
       "maxLevel": 14,
       "elixirCost": 3,
       "iconUrls": {
@@ -1019,6 +1158,7 @@
     {
       "name": "Rocket",
       "id": 28000003,
+      "damage": 1484,
       "maxLevel": 12,
       "elixirCost": 6,
       "iconUrls": {
@@ -1029,6 +1169,8 @@
     {
       "name": "Goblin Barrel",
       "id": 28000004,
+      "health": 202,
+      "damage": 120,
       "maxLevel": 9,
       "maxEvolutionLevel": 1,
       "elixirCost": 3,
@@ -1041,6 +1183,7 @@
     {
       "name": "Freeze",
       "id": 28000005,
+      "damage": 115,
       "maxLevel": 9,
       "elixirCost": 4,
       "iconUrls": {
@@ -1060,6 +1203,7 @@
     {
       "name": "Lightning",
       "id": 28000007,
+      "damage": 1056,
       "maxLevel": 9,
       "elixirCost": 6,
       "iconUrls": {
@@ -1070,6 +1214,7 @@
     {
       "name": "Zap",
       "id": 28000008,
+      "damage": 192,
       "maxLevel": 14,
       "maxEvolutionLevel": 1,
       "elixirCost": 2,
@@ -1082,6 +1227,7 @@
     {
       "name": "Poison",
       "id": 28000009,
+      "damage": 91,
       "maxLevel": 9,
       "elixirCost": 4,
       "iconUrls": {
@@ -1092,6 +1238,8 @@
     {
       "name": "Graveyard",
       "id": 28000010,
+      "health": 81,
+      "damage": 81,
       "maxLevel": 6,
       "elixirCost": 5,
       "iconUrls": {
@@ -1102,6 +1250,7 @@
     {
       "name": "The Log",
       "id": 28000011,
+      "damage": 290,
       "maxLevel": 6,
       "elixirCost": 2,
       "iconUrls": {
@@ -1112,6 +1261,7 @@
     {
       "name": "Tornado",
       "id": 28000012,
+      "damage": 168,
       "maxLevel": 9,
       "elixirCost": 3,
       "iconUrls": {
@@ -1132,6 +1282,7 @@
     {
       "name": "Earthquake",
       "id": 28000014,
+      "damage": 82,
       "maxLevel": 12,
       "elixirCost": 3,
       "iconUrls": {
@@ -1142,6 +1293,8 @@
     {
       "name": "Barbarian Barrel",
       "id": 28000015,
+      "health": 670,
+      "damage":  241,
       "maxLevel": 9,
       "elixirCost": 2,
       "iconUrls": {
@@ -1152,6 +1305,8 @@
     {
       "name": "Heal Spirit",
       "id": 28000016,
+      "health": 231,
+      "damage": 110,
       "maxLevel": 12,
       "elixirCost": 1,
       "iconUrls": {
@@ -1162,6 +1317,7 @@
     {
       "name": "Giant Snowball",
       "id": 28000017,
+      "damage": 179,
       "maxLevel": 14,
       "elixirCost": 2,
       "iconUrls": {
@@ -1172,6 +1328,8 @@
     {
       "name": "Royal Delivery",
       "id": 28000018,
+      "health": 547,
+      "damage": 437,
       "maxLevel": 14,
       "elixirCost": 3,
       "iconUrls": {
@@ -1182,6 +1340,7 @@
     {
       "name": "Void",
       "id": 28000023,
+      "damage": 544,
       "maxLevel": 9,
       "elixirCost": 3,
       "iconUrls": {
